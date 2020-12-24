@@ -12,6 +12,7 @@
     "node": ">= 10.15.3 <11 || >=12.15.0 <13"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "wallet:import": "node importToWallet.js"
   }
 }
