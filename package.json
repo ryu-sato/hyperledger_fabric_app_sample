@@ -1,0 +1,8 @@
+{
+  "name": "hyperledger_fabric_app_sample",
+  "version": "1.0.0",
+  "description": "Sample application of Hyperledger fabric",
+  "main": "index.js",
+  "repository": "git@github.com:ryu-sato/hyperledger_fabric_app_sample.git",
+  "author": "Ryu Sato <ryu@weseek.co.jp>"
+}
