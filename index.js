@@ -15,7 +15,7 @@ const connectionProfile = {
                     "chaincodeQuery": true,
                     "ledgerQuery": true,
                     "eventSource": true,
-                    "discover": true
+                    "discover": false
                 }
             }
         }
