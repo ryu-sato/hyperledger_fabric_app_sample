@@ -2,26 +2,8 @@ const { FileSystemWallet, Gateway } = require('fabric-network');
 const path = require('path');
 
 const connectionProfile = {
-    "name": "first-network-org1",
+    "name": "hyperledger_fabric_app_sample",
     "version": "1.0.0",
-    "client": {
-        "organization": "Org1",
-        "connection": {
-            "timeout": {
-                "peer": {
-                    "endorser": "300"
-                }
-            }
-        }
-    },
-    "organizations": {
-        "SampleOrg": {
-            "mspid": "DEFAULT",
-            "peers": [
-                "localhost:7051"
-            ]
-        }
-    },
     "channels": {
         "myc": {
             "orderers": [
