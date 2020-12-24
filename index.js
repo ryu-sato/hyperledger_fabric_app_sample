@@ -10,7 +10,11 @@ const connectionProfile = {
             "timeout": {
                 "peer": {
                     "endorser": "300"
-                }                                                                                                                                                                                                                                                   }                                                                                                                                                                                                                                                   }                                                                                                                                                                                                                                                   },                                                                                                                                                                                                                                                      "organizations": {
+                }
+            }
+        }
+    },
+    "organizations": {
         "SampleOrg": {
             "mspid": "DEFAULT",
             "peers": [
